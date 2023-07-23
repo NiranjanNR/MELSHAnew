@@ -9,7 +9,6 @@ import YourML from "./components/Projects/YourML";
 import Hackathon from "./components/Hackathon/Hackathon";
 import NFT from "./components/Hackathon/NFT";
 import Ideathon from "./components/Hackathon/Ideathon";
-import Interests from "./components/Interests";
 import Contact from "./components/Contact/Contact";
 
 
