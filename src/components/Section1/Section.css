@@ -1,0 +1,26 @@
+.btn {
+ padding: 1rem 3rem;
+ font-weight: 700;
+ background: rgba(255,255,255);
+ color: rgba(99, 102, 241, 0.74);
+ border-radius: .5rem;
+ border-bottom: 2px solid rgba(99, 102, 241, 0.74);
+ border-right: 2px solid rgba(99, 102, 241, 0.74);
+ border-top: 2px solid white;
+ border-left: 2px solid white;
+ transition-duration: 1s;
+ transition-property: border-top, 
+    border-left, 
+    border-bottom,
+    border-right,
+    box-shadow;
+}
+
+.btn:hover {
+color: rgba(99, 102, 241);
+ border-top: 2px solid blueviolet;
+ border-left: 2px solid blueviolet;
+ border-bottom: 2px solid rgb(85, 0, 238);
+ border-right: 2px solid rgba(83, 0, 238, 0.836);
+ box-shadow: rgba(85, 0, 238, 0.3) 5px 5px, rgba(85, 0, 238, 0.2) 10px 10px, rgba(85, 0, 238, 0.1) 15px 15px;
+}
