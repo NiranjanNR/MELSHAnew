@@ -107,8 +107,8 @@ const Landingpage = () => {
   }
 
   return (
-    <div className='flex justify-center h-[100vh] w-[100%]'>
-      <div className='h-[100vh] w-[80px] bg--500 mx-[30px] flex justify-center pt-7 fixed top-2 left-0'>
+    <div className='flex justify-center h-[100vh] w-[100%] '>
+      <div className='h-[100vh] w-[80px] bg--500 mx-[30px] flex justify-center pt-7 fixed top-2 left-0 mt-7'>
         <div className='bg-blac'>
           <div className='text-2xl font-bold' onMouseEnter={cursorhover} onMouseLeave={cursorleave}>N</div>
           <div className='mt-[450px]'>
@@ -183,7 +183,7 @@ const Landingpage = () => {
           </div>
         </div>
       </div>
-      <div className='h-[100vh] w-[80px] bg--500 mx-[30px] flex justify-center pt-7 fixed top-2 right-0'>
+      <div className='h-[100vh] w-[80px] bg--500 mx-[30px] flex justify-center pt-7 fixed top-2 right-0 mt-7'>
         <div className=''>
           <button className='text-xs  tracking-wide font-normal text-center hover:text-indigo-600' onMouseEnter={cursorhover1} onMouseLeave={cursorleave} >ABOUT</button>
           <button className='text-xs tracking-wide font-normal text-center hover:text-indigo-600' onMouseEnter={cursorhover1} onMouseLeave={cursorleave} >WORKS</button>

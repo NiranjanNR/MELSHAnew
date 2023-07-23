@@ -25,6 +25,7 @@ const App = () => {
       <NFT />
       <Ideathon />
       <Contact />
+      <div className="text-slate-500 text-center mb-5">P.S. This site is still under construction...</div>
     </div>
   );
 };
