@@ -20,6 +20,9 @@ const App = () => {
       <Section2 />
 
       <Ideathon />
+      <Contact />
+      <YourML />
+
       <div className="text-slate-500 text-center mb-5">P.S. This site is still under construction...</div>
     </div>
   );

@@ -1,47 +1,38 @@
 import React from 'react'
 import './Contact.css'
+import background from '../../assets/background.png'
+import { motion } from 'framer-motion';
 
 const Contact = () => {
     return (
-        <div className='h-[100vh] flex items-center justify-center'>
+        <div className='flex mt-10 justify-center'>
             <div>
-                <div>
-                    <div className='text-5xl font-bold text-slate-800/90 text-center mb-6'>
-                        Send me a <span className='text-indigo-500'>message!</span>
-                    </div>
-                    <div className='text-xl font-normal text-slate-800/90 text-center'>
-                        Got a question or proposal, or just want<br />
-                        to say hello? Go ahead.
-                    </div>
-                </div>
-                <div>
-                    <div className=' flex justify-center items-center w-[100%]'>
-                        <div className="input-container ">
-                            <input placeholder="Enter your Name" className="input-field" type="text" />
-                            <label for="input-field" className="input-label">Enter your Name</label>
-                            <span className="input-highlight"></span>
-                        </div>
-                        <div className="input-container ">
-                            <input placeholder="Enter your email" className="input-field" type="text" />
-                            <label for="input-field" className="input-label">Enter your email</label>
-                            <span className="input-highlight"></span>
-                        </div>
-                    </div>
+                <div className='flex gap-x-[150px]'>
 
-                    <div className="input-container">
-                        <input placeholder="Enter your message" className="input-field" type="text" />
-                        <label for="input-field" className="input-label">Enter your message</label>
-                        <span className="input-highlight"></span>
-                    </div>
-                </div>
-                <div className='mt-20 flex justify-center'>
-                    <button class="button type1">
-                        <span class="btn-txt">Shoot -&gt;</span>
-                    </button>
+                    <motion.img
+                        initial={{ opacity: 0, }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 1.05 }}
+                        className='h-[89px] mt-[40px]' src={background} />
+
+                    <motion.div
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.95, delay: 0.2 }}
+                        className='w-[80%] '>
+                        <div className=' text-3xl font-bold mb-2'>ANNUAL COMPANY MANAGEMENT</div>
+                        <div className='mb-4'><span className='mt-[80px] text-xl text-indigo-500'>------------------</span></div>
+                        <div>
+                            We provide efficient service for all the annual compliance and </div>
+                        <div>
+                            renewal of the Mainland company including managing the Renewals,</div>
+                        <div>
+                            UBO Registrations and External Ministry Approvals.
+                        </div>
+                    </motion.div>
                 </div>
             </div>
         </div>
-
     )
 }
 

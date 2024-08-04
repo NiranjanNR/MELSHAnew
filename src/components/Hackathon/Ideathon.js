@@ -5,7 +5,7 @@ import './Ideathon.css';
 
 const Fos = () => {
     return (
-        <div className='flex mt-[30px] h-[100vh] justify-center items-center'>
+        <div className='flex mt-[0px] h-[100vh] justify-center items-center'>
             <div className='grid grid-cols-2 gap-16'>
                 <div class="card">
                     <div class="bg"></div>
